@@ -4,6 +4,17 @@
   width: 100vw;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper button {
+  background-color: #614101;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .accordion {
   width: 500px;
