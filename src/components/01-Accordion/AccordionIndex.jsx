@@ -25,6 +25,16 @@ const AccordionIndex = () => {
     );
   };
 
+  // const handleMultiSelection = (currentId) => {
+  //   let copyMultiple = [...multiple];
+  //   const findIndexOfCurrentId = copyMultiple.indexOf(currentId);
+  //   console.log(findIndexOfCurrentId);
+  //   if (findIndexOfCurrentId === -1) copyMultiple.push(currentId);
+  //   else copyMultiple.splice(findIndexOfCurrentId, 1);
+
+  //   setMultiple(copyMultiple);
+  // };
+
   console.log(selectedId, multiple);
 
   return (
