@@ -20,7 +20,7 @@ const AccordionIndex = () => {
   const handleMultiSelection = (currentId) => {
     setMultiple((prev) =>
       prev.includes(currentId)
-        ? prev.filter((id) => id !== currentId)
+        ? prev.filter((curState) => curState !== currentId)
         : [...prev, currentId]
     );
   };
